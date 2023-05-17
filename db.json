@@ -1,0 +1,110 @@
+{
+  "seller": [
+    {
+      "name": "raushan",
+      "password": "abcd",
+      "email": "priyanshu1996r@gmail.com",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "nokia",
+      "price": "500",
+      "color": "Black",
+      "category": "mobile",
+      "description": "best product",
+      "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 1
+    },
+    {
+      "name": "laptop",
+      "price": "10000",
+      "color": "Silver",
+      "category": "laptop",
+      "description": "good product",
+      "image": "https://images.pexels.com/photos/5588490/pexels-photo-5588490.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 2
+    },
+    {
+      "name": "Iphone",
+      "price": "5000",
+      "color": "Golden",
+      "category": "Iphone",
+      "description": "budget product",
+      "image": "https://images.pexels.com/photos/198192/pexels-photo-198192.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 3
+    },
+    {
+      "name": "samsung",
+      "price": "12000",
+      "color": "Gray",
+      "category": "mobile",
+      "description": "new arrival",
+      "image": "https://images.pexels.com/photos/214487/pexels-photo-214487.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 4
+    },
+    {
+      "name": "nokia",
+      "price": "500",
+      "color": "Black",
+      "category": "mobile",
+      "description": "best product",
+      "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 5
+    },
+    {
+      "name": "laptop",
+      "price": "10000",
+      "color": "Silver",
+      "category": "laptop",
+      "description": "good product",
+      "image": "https://images.pexels.com/photos/5588490/pexels-photo-5588490.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 6
+    },
+    {
+      "name": "Iphone",
+      "price": "5000",
+      "color": "Golden",
+      "category": "Iphone",
+      "description": "budget product",
+      "image": "https://images.pexels.com/photos/198192/pexels-photo-198192.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 7
+    },
+    {
+      "name": "samsung",
+      "price": "12000",
+      "color": "Gray",
+      "category": "mobile",
+      "description": "new arrival",
+      "image": "https://images.pexels.com/photos/214487/pexels-photo-214487.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "ram",
+      "email": "raushan1996r@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "ram",
+      "email": "raushan1996r@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "raushan",
+      "email": "priyanshu1996r@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "ram",
+      "email": "raushan1996r@gmail.com",
+      "password": "1234",
+      "id": 4
+    }
+  ]
+}
