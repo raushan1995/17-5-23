@@ -1,0 +1,64 @@
+<marquee class="my-2">Today's Offer . Lorem ipsum dolor sit amet consectetur adipisicing elit. </marquee>
+
+<ngb-carousel *ngIf="popularProducts">
+	<ng-template *ngFor="let item of popularProducts" ngbSlide>
+		<div class="picsum-img-wrapper">
+			<a routerLink="/details/{{item.id}}">	<img class="product-header-img " src="{{item.image}}" alt="Random first slide" /></a>
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+		</div>
+	</ng-template>	
+</ngb-carousel>
+
+<div class="product-list-wrapper ">
+	<h3 style="text-align: center; margin-top: 1em; color: #45637D;">Trendy Products</h3><hr style="margin-left: 40%; margin-right: 40%; border: 1px solid #45637D ;">
+	<div class="card">
+	<div class="row">
+		<div class="col-sm-3  bg-image hover-overlay" mdbRipple rippleColor="light" *ngFor="let item of trendyProducts">
+			<div class="product-item ">
+				<img src="{{item.image}}" alt="" class="img-fluid" />
+				<div class="product-details card-body">
+					<h1 class="name-head">{{item.name}}</h1>
+					<div class="product-price">
+						<h6>Price:{{item.price}}</h6>
+					</div>
+					<div class="product-color">
+						<h6>Color:{{item.color}}</h6>
+					</div>
+				</div>
+				<div class="product-footer ">
+					<a routerLink="/details/{{item.id}}"><button class="btn btn-info">View Details</button></a>
+					<button class="btn btn-success">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<h3 style="text-align: center; margin-top: 1em; color: #45637D; ">Most saled Products</h3><hr style="margin-left: 40%; margin-right: 40%; border: 1px solid #45637D ;">
+<ngb-carousel class="fixed-background" *ngIf="popularProducts">
+	
+	<ng-template *ngFor="let item of popularProducts" ngbSlide>
+		<div class="picsum-img-wrapper fixed-image">
+			<a routerLink="/details/{{item.id}}">	<img class="product-header-img " src="{{item.image}}" alt="Random first slide" /></a>
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+		</div>   
+	</ng-template>	
+</ngb-carousel>
+
+<h3 style="text-align: center; margin-top: 1em; color: #45637D;">About us</h3><hr style="margin-left: 40%; margin-right: 40%; border: 1px solid #45637D ;">
+<div class="dami-text row">
+	
+	<p class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto reiciendis pariatur, eligendi ullam obcaecati dolorum nobis, quia dolores veritatis, id dignissimos rem dolore distinctio perferendis! Consequuntur fugiat nostrum obcaecati.</p>
+	<p class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto reiciendis pariatur, eligendi ullam obcaecati dolorum nobis, quia dolores veritatis, id dignissimos rem dolore distinctio perferendis! Consequuntur fugiat nostrum obcaecati.</p>
+	<p class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto reiciendis pariatur, eligendi ullam obcaecati dolorum nobis, quia dolores veritatis, id dignissimos rem dolore distinctio perferendis! Consequuntur fugiat nostrum obcaecati.</p>
+	<p class="col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto reiciendis pariatur, eligendi ullam obcaecati dolorum nobis, quia dolores veritatis, id dignissimos rem dolore distinctio perferendis! Consequuntur fugiat nostrum obcaecati.</p>
+</div>
+
+ 

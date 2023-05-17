@@ -1,0 +1,25 @@
+.product-list{
+    margin-top: 5em;
+}
+table{
+    
+    color: #45637D;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 12em;
+    margin-top: 20px;
+}
+table td,table th{
+    border: 1px solid #45637D;
+    padding: 10px;
+    min-height: 160px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    color: #45637D;
+    text-align: center;
+}

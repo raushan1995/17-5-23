@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 2px solid #45637D;
+    color: #45637D;
+
+}
+.form-button{
+    height: 35px;
+    border: 2px solid #45637D;
+    cursor: pointer;
+
+}
+.error-p{
+    color: red;
+}
+
+.message-p{
+    color: green;
+}
+
+.carousel-caption{
+   
+    color: rgb(225, 221, 228);
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+    margin-top: 5px;
+}
+
+.invalid-input{
+    color: red;
+    margin-top: -20px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+marquee{
+    color: red;
+}
